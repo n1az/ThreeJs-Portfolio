@@ -8,6 +8,12 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import dark from "./dark.png";
+import dogs from "./dogs.png";
+import checkout from "./checkout.png";
+import bull from "./bull.png";
+import classi from "./classi.png";
+import caps from "./caps.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -63,4 +69,10 @@ export {
   jobit,
   tripguide,
   code,
+  dark,
+  dogs,
+  checkout,
+  bull,
+  classi,
+  caps,
 };

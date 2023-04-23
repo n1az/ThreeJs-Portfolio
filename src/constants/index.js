@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    dark,
+    dogs,
+    checkout,
+    bull,
+    caps,
+    classi,
   } from "../assets";
   
   export const navLinks = [
@@ -198,67 +204,134 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Dog Vision Ai",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a deep learning model using Transfer Learning from TensorFlow Hub with TensorFlow in Google Colab. This notebook builds an end-to-end multi-class image classifier for 120 breeds of dogs with dataset from Kaggle.",
+      tags: [
+        {
+          name: "tensorflow",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mobilenetv2",
+          color: "green-text-gradient",
+        },
+        {
+          name: "deep-learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dogs,
+      source_code_link: "https://github.com/n1az/dog-vision-ai",
+    },
+    {
+      name: "Classifier Hunt",
+      description:
+        "This is an example of finding the best machine learning classification model for a selected dataset by accuaracy evaluation methods.",
+      tags: [
+        {
+          name: "scikit-learn",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "classifier",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: classi,
+      source_code_link: "https://github.com/n1az/IBM-ML-with-py/blob/main/best-classifier.ipynb",
+    },
+    {
+      name: "AI Capstone",
+      description:
+        "This deep-learning lab is using pre-trained models to classify between the negative and positive samples; with the provided dataset object. The particular pre-trained model is resnet18.",
+      tags: [
+        {
+          name: "pytorch",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "resnet18",
+          color: "green-text-gradient",
+        },
+        {
+          name: "wattsonstudio",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: caps,
+      source_code_link: "https://github.com/n1az/deep-learning-capstone-project-IBM",
+    },
+    {
+      name: "MedBot",
+      description:
+        "It is a medicine delivery web application developed with python in Django Framework. It has all the common features in addition of a optimized delivery route for delivery man and pharmacy owners, which is based on shortest time.",
+      tags: [
+        {
+          name: "django",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mapbox",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: checkout,
+      source_code_link: "https://github.com/n1az/MedBot",
+    },
+    {
+      name: "Admin Panel",
+      description:
+        "An Admin Dashboard using React, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, 4 different Charts, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "material-ui",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: dark,
+      source_code_link: "https://github.com/n1az/react-control-panel",
     },
     {
-      name: "Job IT",
+      name: "Price Predictor",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This notebook shows an example of a machine learning problem of regression with the goal of predicting the sale price of bulldozers.",
       tags: [
         {
-          name: "react",
+          name: "scikit-learn",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "pandas",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "numpy",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Anaconda",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bull,
+      source_code_link: "https://github.com/n1az/bulldozer-price-regression",
     },
   ];
   
