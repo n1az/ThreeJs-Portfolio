@@ -21,7 +21,7 @@ const Computers = ({ isMobile }) => {
       />
       <spotLight
         position={[20, 50, 10]}
-        color={"#57D6EA"}
+        color={"#EA575F"}
         angle={0.12}
         penumbra={1}
         intensity={1}
@@ -74,6 +74,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
