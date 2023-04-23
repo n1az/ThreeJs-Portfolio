@@ -12,23 +12,24 @@ const Computers = ({ isMobile }) => {
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
-        color={"#ee4d4d"}
+        color={"#57D6EA"}
         angle={0.12}
         penumbra={1}
-        intensity={2}
+        intensity={1}
         castShadow
         shadow-mapSize={1024}
       />
       <spotLight
         position={[20, 50, 10]}
-        color={"#11998e"}
+        color={"#57D6EA"}
         angle={0.12}
         penumbra={1}
-        intensity={2}
+        intensity={1}
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={5} color={"#2f80ed"} />
+      <pointLight intensity={1} color={"#8957EA"} position={[0,0,10]}/>
+      <pointLight intensity={1} color={"#8957EA"} />
       <primitive
         object={computer.scene}
         scale={isMobile ? 5 : 8.5}

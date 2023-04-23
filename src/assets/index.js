@@ -1,4 +1,6 @@
 import logo from "./logo.png";
+import letter from "./letter.png";
+import code from "./code.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -32,6 +34,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  letter,
   backend,
   creator,
   mobile,
@@ -59,4 +62,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  code,
 };
