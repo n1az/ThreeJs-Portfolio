@@ -230,20 +230,20 @@ import {
         "Biostatistics & Epidemiological Data Analysis on KiGGs dataset using R with regression and analysis report interpretetion",
       tags: [
         {
-          name: "scikit-learn",
+          name: "ANOVA",
           color: "blue-text-gradient",
         },
         {
-          name: "python",
+          name: "R",
           color: "green-text-gradient",
         },
         {
-          name: "classifier",
+          name: "Regression",
           color: "pink-text-gradient",
         },
       ],
       image: classi,
-      source_code_link: "https://github.com/n1az/IBM-ML-with-py/blob/main/best-classifier.ipynb",
+      source_code_link: "https://github.com/n1az/literate-bior",
     },
     {
       name: "AI Capstone",
