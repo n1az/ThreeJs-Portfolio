@@ -225,9 +225,9 @@ import {
       source_code_link: "https://github.com/n1az/dog-vision-ai",
     },
     {
-      name: "Classifier Hunt",
+      name: "Biostatistics with R",
       description:
-        "This is an example of finding the best machine learning classification model for a selected dataset by accuaracy evaluation methods.",
+        "Biostatistics & Epidemiological Data Analysis on KiGGs dataset using R with regression and analysis report interpretetion",
       tags: [
         {
           name: "scikit-learn",
@@ -326,7 +326,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Anaconda",
+          name: "Regression",
           color: "pink-text-gradient",
         },
       ],
